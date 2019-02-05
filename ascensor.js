@@ -1,7 +1,9 @@
-import { Piso } from './piso';
-
-class Ascensor {
-    constructor(id, maxCharge, currentCharge, state) {
+export default class Elevator {
+    constructor(id, maxCharge, currentFloor) {
         this.id = id;
+        this.maxCharge = maxCharge;
+        this.currentFloor = currentFloor;
+        this.currentCharge = 0;
+        this.state = 'reposo'; // 'reposo' | 'subiendo' | 'bajando'
     }
 }

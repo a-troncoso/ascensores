@@ -1,6 +1,4 @@
-import { Ascensor } from './ascensor';
-
-class Piso {
+export default class Floor {
     constructor(id, number) {
         this.id = id;
         this.number = number;

@@ -1,8 +1,14 @@
-import { Piso } from './piso';
-
-class Solicitud {
-    constructor(id, fecha) {
+export default class Request {
+    constructor(id, date, fromFlor, toFloor) {
         this.id = id;
-        this.fecha = fecha;
+        this.date = date;
+        this.fromFlor = fromFlor;
+        this.toFloor = toFloor;
     }
+
+    // makeRequest(date, fromFlor, toFloor) {
+    //     this.date = date;
+    //     this.fromFlor = fromFlor;
+    //     this.toFloor = toFloor;
+    // }
 }

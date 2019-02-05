@@ -1,7 +1,8 @@
-import { Piso } from './piso';
-
-class Edificio {
-    constructor(id) {
+export default class Build {
+    constructor(id, floors, name, elevators) {
         this.id = id;
+        this.floors = floors;
+        this.name = name;
+        this.elevators = elevators;
     }
 }
