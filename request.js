@@ -1,6 +1,6 @@
 export class Request {
-    constructor(id, date, fromFlor, toFloor) {
-        this.id = id;
+    constructor(date, fromFlor, toFloor) {
+        // this.id = id;
         this.date = date;
         this.fromFlor = fromFlor;
         this.toFloor = toFloor;
