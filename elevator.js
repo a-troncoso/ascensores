@@ -1,4 +1,4 @@
-export default class Elevator {
+export class Elevator {
     constructor(id, maxCharge, currentFloor) {
         this.id = id;
         this.maxCharge = maxCharge;

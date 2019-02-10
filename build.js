@@ -1,4 +1,4 @@
-export default class Build {
+export class Build {
     constructor(id, floors, name, elevators) {
         this.id = id;
         this.floors = floors;
