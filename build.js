@@ -5,4 +5,9 @@ export class Build {
         this.name = name;
         this.elevators = elevators;
     }
+
+    selectFeasibleElevator(floor) {
+        return this.elevators[0];
+        // this.elevators.map();
+    }
 }

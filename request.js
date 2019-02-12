@@ -1,14 +1,13 @@
 export class Request {
-    constructor(date, fromFlor, toFloor) {
-        // this.id = id;
+    constructor(date, fromFloor, toFloor) {
         this.date = date;
-        this.fromFlor = fromFlor;
+        this.fromFloor = fromFloor;
         this.toFloor = toFloor;
     }
 
-    // makeRequest(date, fromFlor, toFloor) {
+    // makeRequest(date, fromFloor, toFloor) {
     //     this.date = date;
-    //     this.fromFlor = fromFlor;
+    //     this.fromFloor = fromFloor;
     //     this.toFloor = toFloor;
     // }
 }
